@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" shape-rendering="crispEdges">
+  <!-- 像素钻石贴纸（我的世界宝石） -->
+  <rect width="96" height="96" rx="12" fill="#FFFFFF"/>
+  <rect x="33" y="18" width="30" height="10" fill="#A7E6F0"/>
+  <rect x="23" y="28" width="50" height="10" fill="#A7E6F0"/>
+  <rect x="33" y="28" width="10" height="10" fill="#FFFFFF" opacity=".9"/>
+  <rect x="13" y="38" width="70" height="10" fill="#58C6D9"/>
+  <rect x="23" y="48" width="50" height="10" fill="#3BA8C0"/>
+  <rect x="33" y="58" width="30" height="10" fill="#2E8CA3"/>
+  <rect x="43" y="68" width="10" height="10" fill="#24748A"/>
+</svg>
