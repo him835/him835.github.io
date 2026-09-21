@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" shape-rendering="crispEdges">
+  <!-- 我的世界草方块贴纸：像素画风 + 白色裁切边 -->
+  <rect width="96" height="96" rx="12" fill="#FFFFFF"/>
+  <rect x="8" y="8" width="80" height="32" fill="#6FBF4F"/>
+  <rect x="16" y="12" width="10" height="10" fill="#7FCC58"/>
+  <rect x="40" y="10" width="10" height="10" fill="#5CA83F"/>
+  <rect x="64" y="14" width="10" height="10" fill="#7FCC58"/>
+  <rect x="28" y="24" width="10" height="10" fill="#5CA83F"/>
+  <rect x="58" y="26" width="10" height="10" fill="#7FCC58"/>
+  <rect x="8" y="40" width="80" height="48" fill="#8A5A3B"/>
+  <rect x="12" y="40" width="8" height="8" fill="#5CA83F"/>
+  <rect x="34" y="40" width="8" height="8" fill="#6FBF4F"/>
+  <rect x="66" y="40" width="8" height="8" fill="#5CA83F"/>
+  <rect x="18" y="52" width="10" height="10" fill="#7A4E33"/>
+  <rect x="48" y="48" width="10" height="10" fill="#96684A"/>
+  <rect x="70" y="58" width="10" height="10" fill="#7A4E33"/>
+  <rect x="26" y="64" width="10" height="10" fill="#96684A"/>
+  <rect x="54" y="70" width="10" height="10" fill="#7A4E33"/>
+  <rect x="14" y="74" width="10" height="10" fill="#96684A"/>
+  <rect x="40" y="76" width="10" height="10" fill="#7A4E33"/>
+  <rect x="66" y="72" width="10" height="10" fill="#96684A"/>
+</svg>
