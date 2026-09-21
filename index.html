@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="海梦园的个人主页 —— 湖南大学金融与统计学院统计学专业本科生。玩《我的世界》、打极限飞盘、喜欢户外徒步与爬山。包含个人介绍、技能特长、竞赛经历、个人相册，以及可下载的 PDF 简历。" />
+  <meta name="author" content="海梦园" />
+  <title>海梦园 · 个人主页</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+
+  <!-- 样式表：小众清新 · 学术风视觉设计 -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 无障碍：跳过导航直达正文 -->
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <!-- ============================================================
+       站点头部 · 顶部导航栏（固定）
+  ============================================================ -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar container" aria-label="主导航">
+      <a class="logo" href="#home">海梦园<span class="logo-dot">.</span></a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button"
+              aria-controls="nav-menu" aria-expanded="false" aria-label="切换菜单">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a class="nav-link" href="#home">首页</a></li>
+        <li><a class="nav-link" href="#about">关于我</a></li>
+        <li><a class="nav-link" href="#skills">技能</a></li>
+        <li><a class="nav-link" href="#experience">经历</a></li>
+        <li><a class="nav-link" href="#gallery">相册</a></li>
+        <li><a class="nav-link" href="#contact">联系</a></li>
+        <li class="nav-menu-cta">
+          <a class="btn btn-primary btn-sm"
+             href="assets/resume/HaiMengyuan-Resume.pdf"
+             download="海梦园-个人简历.pdf">下载简历</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================================================
+         板块 1 · Hero 首屏
+         左：文字排版；右：竖排座右铭立轴卡片 + 手帐贴纸
+    ============================================================ -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-greeting">你好，我是</p>
+          <h1 class="hero-name">海梦园</h1>
+          <p class="hero-title">
+            <span class="hero-title-role">统计学专业本科生</span>
+          </p>
+          <p class="hero-desc">
+            坐标长沙，湖南大学金融与统计学院 2024 级。<br />
+            课余会玩一玩《我的世界》，和飞盘队队友在草地上训练，或去外地参加比赛。喜欢户外运动，徒步、爬山都爱。最喜欢的电影是《指环王》，常听草东没有排队、赵雷和陈奕迅。偶尔写点代码，参加建模比赛。
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg"
+               href="assets/resume/HaiMengyuan-Resume.pdf"
+               download="海梦园-个人简历.pdf">下载简历（PDF）</a>
+            <a class="btn btn-ghost btn-lg" href="#about">了解更多 ↓</a>
+          </div>
+          <ul class="hero-social">
+            <li><a href="https://github.com/him835" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="mailto:536496457@qq.com">Email</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <!-- 座右铭立轴：竖排文字 + 朱砂印章 + 和纸胶带 -->
+          <div class="motto-card" aria-hidden="true">
+            <span class="tape tape--motto" aria-hidden="true"></span>
+            <span class="motto-seal">海</span>
+            <p class="motto-text">给时间以生命，而不是给生命以时间</p>
+            <p class="motto-caption">座 右 铭</p>
+          </div>
+          <!-- 手帐贴纸：飞盘 / 草方块 / 至尊魔戒 -->
+          <img class="sticker sticker--frisbee" src="assets/images/sticker-frisbee.svg" alt="" aria-hidden="true" />
+          <img class="sticker sticker--grass" src="assets/images/sticker-grass.svg" alt="" aria-hidden="true" />
+          <img class="sticker sticker--ring" src="assets/images/sticker-ring.svg" alt="" aria-hidden="true" />
+        </div>
+      </div>
+
+      <a class="hero-scroll-hint" href="#about" aria-label="向下滚动查看更多">SCROLL ↓</a>
+    </section>
+
+    <!-- ============================================================
+         板块 2 · 关于我
+    ============================================================ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-tag">About Me</p>
+          <h2 class="section-title">关于我</h2>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>我是海梦园，湖南大学金融与统计学院统计学专业 2024 级本科生。当初选统计，一半是因为喜欢和数字打交道；读了两年，至少确定了一件事：写 Python 比写作文更顺手。</p>
+            <p>课余时间，我会玩一玩《我的世界》，也会和队友在草地上训练，或者去外地参加比赛。喜欢户外运动，徒步、爬山都爱。最喜欢的电影是《指环王》，常听的音乐人是草东、赵雷和陈奕迅。</p>
+            <p class="about-motto">“给时间以生命，而不是给生命以时间。”这句话作为座右铭，说的不是每天都要轰轰烈烈，而是别把日子过成单纯的等待。时间本身没什么内容，是人往里放了什么，它才成了什么样的日子。与其追求活得久，不如让活着的每一段都有一点实在的内容。</p>
+          </div>
+
+          <aside class="about-card">
+            <h3 class="about-card-title">基本信息</h3>
+            <ul class="info-list">
+              <li><span class="info-label">姓名</span><span class="info-value">海梦园</span></li>
+              <li><span class="info-label">学校</span><span class="info-value">湖南大学</span></li>
+              <li><span class="info-label">学院</span><span class="info-value">金融与统计学院</span></li>
+              <li><span class="info-label">专业</span><span class="info-value">统计学</span></li>
+              <li><span class="info-label">年级</span><span class="info-value">2024 级本科</span></li>
+              <li><span class="info-label">邮箱</span><span class="info-value">536496457@qq.com</span></li>
+              <li><span class="info-label">GitHub</span><span class="info-value">github.com/him835</span></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         板块 3 · 技能特长
+         每条技能带一句说明；data-level 供进度条生长动画使用
+         进度条数值按条目顺序（熟练 → 掌握 → 基础）由高到低排列
+    ============================================================ -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-tag">Skills</p>
+          <h2 class="section-title">技能特长</h2>
+          <img class="sticker sticker--leaf" src="assets/images/sticker-leaf.svg" alt="" aria-hidden="true" />
+        </header>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="skill-category-title">编程与数据</h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-head"><span class="skill-name">Python 数据分析</span><span class="skill-level">85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-level="85" style="--level:85%"></div></div>
+                <p class="skill-desc">熟练使用 pandas、numpy 完成数据清洗与探索</p>
+              </li>
+              <li class="skill-item">
+                <div class="skill-head"><span class="skill-name">R 语言</span><span class="skill-level">70%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-level="70" style="--level:70%"></div></div>
+                <p class="skill-desc">掌握基础统计分析与可视化</p>
+              </li>
+              <li class="skill-item">
+                <div class="skill-head"><span class="skill-name">SQL</span><span class="skill-level">60%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-level="60" style="--level:60%"></div></div>
+                <p class="skill-desc">能完成基础查询与数据提取</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">统计与建模</h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-head"><span class="skill-name">统计推断</span><span class="skill-level">85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-level="85" style="--level:85%"></div></div>
+                <p class="skill-desc">理解假设检验与置信区间的底层逻辑</p>
+              </li>
+              <li class="skill-item">
+                <div class="skill-head"><span class="skill-name">回归分析</span><span class="skill-level">75%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-level="75" style="--level:75%"></div></div>
+                <p class="skill-desc">能独立完成线性与广义线性模型建模</p>
+              </li>
+              <li class="skill-item">
+                <div class="skill-head"><span class="skill-name">机器学习基础</span><span class="skill-level">60%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-level="60" style="--level:60%"></div></div>
+                <p class="skill-desc">了解常见分类与生存分析模型</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">工具与软件</h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-head"><span class="skill-name">LaTeX 排版</span><span class="skill-level">85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-level="85" style="--level:85%"></div></div>
+                <p class="skill-desc">熟练撰写学术文档与竞赛论文</p>
+              </li>
+              <li class="skill-item">
+                <div class="skill-head"><span class="skill-name">Excel 数据透视</span><span class="skill-level">75%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-level="75" style="--level:75%"></div></div>
+                <p class="skill-desc">快速完成数据汇总与分析</p>
+              </li>
+              <li class="skill-item">
+                <div class="skill-head"><span class="skill-name">Git 版本管理</span><span class="skill-level">65%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-level="65" style="--level:65%"></div></div>
+                <p class="skill-desc">基本的分支操作与协作流程</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         板块 4 · 竞赛经历
+         垂直时间线（按时间倒序）：统计建模 / 华数杯 / 极限飞盘
+    ============================================================ -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-tag">Competitions</p>
+          <h2 class="section-title">竞赛经历</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <p class="timeline-date">2026</p>
+            <div class="timeline-card">
+              <h3 class="timeline-title">全国大学生统计建模大赛</h3>
+              <p class="timeline-place">国赛 · 三等奖</p>
+              <p class="timeline-desc"><span class="timeline-key">选题</span>解构食管鳞癌微环境异质性：融合多模态先验知识的 GroupLasso-Cox 生存预后框架</p>
+              <p class="timeline-desc"><span class="timeline-key">角色</span>建模、代码调试</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <p class="timeline-date">2026</p>
+            <div class="timeline-card">
+              <h3 class="timeline-title">华数杯全国大学生数学建模竞赛</h3>
+              <p class="timeline-place">全国二等奖</p>
+              <p class="timeline-desc"><span class="timeline-key">题目</span>C 题</p>
+              <p class="timeline-desc"><span class="timeline-key">角色</span>队长、建模、代码调试</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <p class="timeline-date">2025</p>
+            <div class="timeline-card">
+              <h3 class="timeline-title">全国大学生极限飞盘比赛</h3>
+              <p class="timeline-place">中南赛区 · 季军</p>
+              <p class="timeline-desc">飞盘是团队运动。这个季军是和队友一场一场拼下来的。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         板块 5 · 我的相册
+         替换方式：用真实照片覆盖 assets/images/photo-1.jpg 等同名文件
+    ============================================================ -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-tag">Gallery</p>
+          <h2 class="section-title">我的相册</h2>
+          <p class="section-desc">用镜头记录校园、数据与日常。</p>
+        </header>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/photo-1.jpg" alt="图一：校园时光（占位图）" loading="lazy" />
+            </div>
+            <figcaption class="gallery-caption">
+              <h3 class="gallery-item-title">图一 · 校园时光</h3>
+              <p class="gallery-item-desc">【请替换】一句话照片说明。</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/photo-2.jpg" alt="图二：数据瞬间（占位图）" loading="lazy" />
+            </div>
+            <figcaption class="gallery-caption">
+              <h3 class="gallery-item-title">图二 · 数据瞬间</h3>
+              <p class="gallery-item-desc">【请替换】一句话照片说明。</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/photo-3.jpg" alt="图三：飞盘与方块（占位图）" loading="lazy" />
+            </div>
+            <figcaption class="gallery-caption">
+              <h3 class="gallery-item-title">图三 · 飞盘与方块</h3>
+              <p class="gallery-item-desc">【请替换】飞盘瞬间 /《我的世界》作品截图。</p>
+            </figcaption>
+          </figure>
+
+          <!-- 手帐贴纸：苦力怕探头 + 远山徒步 -->
+          <img class="sticker sticker--creeper" src="assets/images/sticker-creeper.svg" alt="" aria-hidden="true" />
+          <img class="sticker sticker--mountain" src="assets/images/sticker-mountain.svg" alt="" aria-hidden="true" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         板块 6 · 联系我
+         三张联系卡：Email / GitHub / 简历下载（PDF）
+    ============================================================ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-tag">Contact</p>
+          <h2 class="section-title">联系我</h2>
+          <p class="section-desc">如果你对我的竞赛经历或项目感兴趣，欢迎随时交流。</p>
+          <img class="sticker sticker--compass" src="assets/images/sticker-compass.svg" alt="" aria-hidden="true" />
+        </header>
+
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:536496457@qq.com">
+            <span class="contact-icon" aria-hidden="true">✉️</span>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">536496457@qq.com</span>
+          </a>
+          <a class="contact-card" href="https://github.com/him835" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon" aria-hidden="true">💻</span>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/him835</span>
+          </a>
+          <a class="contact-card contact-card--resume"
+             href="assets/resume/HaiMengyuan-Resume.pdf"
+             download="海梦园-个人简历.pdf">
+            <span class="contact-icon" aria-hidden="true">📄</span>
+            <span class="contact-label">Resume</span>
+            <span class="contact-value">下载 PDF 简历</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer-inner">
+      <p class="footer-copy">© 2026 海梦园 · All Rights Reserved</p>
+      <p class="footer-meta">本站使用原生 HTML / CSS / JavaScript 构建</p>
+    </div>
+  </footer>
+
+  <a class="back-to-top" id="back-to-top" href="#home" aria-label="回到顶部">↑</a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
