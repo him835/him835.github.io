@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- 指南针贴纸：户外徒步元素 -->
+  <circle cx="50" cy="50" r="46" fill="#FFFFFF"/>
+  <circle cx="50" cy="50" r="40" fill="#F2EDE1" stroke="#A8834C" stroke-width="4"/>
+  <circle cx="50" cy="50" r="34" fill="none" stroke="#D9D0BC" stroke-width="1.2"/>
+  <!-- 刻度 -->
+  <g stroke="#A8834C" stroke-width="2" stroke-linecap="round">
+    <path d="M 50 12 V 20" /><path d="M 50 80 V 88" />
+    <path d="M 12 50 H 20" /><path d="M 80 50 H 88" />
+  </g>
+  <!-- 指针 -->
+  <path d="M 50 20 L 58 50 L 50 80 L 42 50 Z" fill="#2F5D50"/>
+  <path d="M 50 20 L 58 50 L 50 50 Z" fill="#B0453A"/>
+  <circle cx="50" cy="50" r="4.5" fill="#A8834C"/>
+</svg>
