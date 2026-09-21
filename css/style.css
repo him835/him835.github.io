@@ -975,26 +975,23 @@ body.nav-open { overflow: hidden; }
   50%      { transform: translateY(-6px) rotate(calc(var(--tilt, 0deg) + 1.5deg)); }
 }
 
-/* Hero：飞盘（右上飘动）、草方块（左下）、至尊魔戒（左上） */
-.sticker--frisbee  { top: -36px; right: -22px; width: 136px; --tilt: 10deg; z-index: 7; }
-.sticker--grass    { bottom: -16px; left: -18px; width: 74px; --tilt: -9deg; z-index: 7; }
-.sticker--ring     { top: -30px; left: -26px; width: 84px; --tilt: -14deg; z-index: 7;
-                     animation-duration: 4.6s; }
+/* Hero：飞盘（右上飘动）与草方块（左下） */
+.sticker--frisbee { top: -36px; right: -22px; width: 136px; --tilt: 10deg; z-index: 7; }
+.sticker--grass   { bottom: -16px; left: -18px; width: 74px; --tilt: -9deg; z-index: 7; }
 
-/* 技能区标题：精灵树叶（右上） */
-.sticker--leaf { top: -22px; right: 13%; width: 42px; --tilt: 16deg; animation-duration: 4.2s; }
+/* 技能区标题：钻石 */
+.sticker--diamond { top: -16px; right: 12%; width: 52px; --tilt: 12deg; }
 
-/* 相册：苦力怕探头（右上）+ 远山（左下） */
-.sticker--creeper  { top: -24px; right: -12px; width: 64px; --tilt: 9deg; z-index: 6; }
-.sticker--mountain { bottom: -30px; left: -30px; width: 92px; --tilt: -6deg; z-index: 6; }
+/* 相册：苦力怕从右上角探头 */
+.sticker--creeper { top: -24px; right: -12px; width: 64px; --tilt: 9deg; z-index: 6; }
 
-/* 联系区标题：指南针 */
-.sticker--compass {
-  top: -18px;
-  left: 13%;
-  width: 50px;
-  --tilt: -12deg;
-  animation-duration: 5s;
+/* 联系区标题：像素爱心（心跳） */
+.sticker--heart {
+  top: -14px;
+  left: 12%;
+  width: 46px;
+  --tilt: -11deg;
+  animation: sticker-beat 2.4s ease-in-out infinite;
 }
 
 @keyframes sticker-beat {
@@ -1043,20 +1040,16 @@ body.nav-open { overflow: hidden; }
 
 /* 贴纸响应式：小屏收敛，避免拥挤 */
 @media (max-width: 880px) {
-  .sticker--frisbee  { width: 104px; top: -26px; right: -8px; }
-  .sticker--grass    { width: 58px; bottom: -12px; left: -10px; }
-  .sticker--ring     { width: 62px; top: -20px; left: -12px; }
-  .sticker--creeper  { width: 52px; top: -18px; right: -4px; }
-  .sticker--mountain { width: 68px; bottom: -20px; left: -18px; }
-  .sticker--leaf,
-  .sticker--compass  { display: none; }
+  .sticker--frisbee { width: 104px; top: -26px; right: -8px; }
+  .sticker--grass   { width: 58px; bottom: -12px; left: -10px; }
+  .sticker--creeper { width: 52px; top: -18px; right: -4px; }
+  .sticker--diamond,
+  .sticker--heart   { display: none; }
 }
 
 @media (max-width: 560px) {
-  .sticker--frisbee  { width: 88px; }
-  .sticker--grass    { width: 50px; }
-  .sticker--ring     { width: 54px; }
-  .sticker--mountain { width: 58px; }
+  .sticker--frisbee { width: 88px; }
+  .sticker--grass   { width: 50px; }
 }
 
 /* ---------- 16. 滚动淡入（第三步 JS 驱动） ---------- */
